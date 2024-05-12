@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Book Repository</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="x-icon" href="bookrepo.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="thala">
+            <h1>NovelNavigator</h1>
+        </div>
+
+        <div class="container">
+            <div class="container-items">
+                <h2>Echoes of the Ancients</h2>
+                <h4> Serena Nightingale</h4>
+                <p>Echoes of the Ancients" by Serena Nightingale is a gripping fantasy novel set in a world where ancient powers and forgotten magic hold sway. When young scholar Lysandra discovers an ancient artifact, she unwittingly sets off a chain of events that could reshape the very fabric of her world. As dark forces rise and ancient prophecies awaken, Lysandra must embark on a perilous journey to unlock the secrets of the past and prevent a catastrophe that threatens to plunge the realm into chaos. With allies both old and new, she delves into the mysteries of lost civilizations,
+                     battling foes both mundane and magical, in a quest that will test her courage, wisdom, and resolve. </p>
+                    <button onclick="deletebook(event)">Delete</button>
+            </div>   
+        </div>
+
+        <div class="overlay-popup">
+
+        </div>
+
+        <div class="popup-box">
+            <h2>Add Book</h2>
+            <form>
+            <input type="text" placeholder="book-title" id="booktitle-ip">
+            <input type="text" placeholder="Author name" id="author-name-ip">
+            <textarea placeholder="Short Description" id="Book-description"></textarea>
+            <button id="add-book">Add Book</button>
+            <button id="cancle-book">Cancle Book</button>
+        </form>
+        </div>
+
+   
+
+        <button class="add-btn" id="add-popup">+</button>
+        <script src="script.js"></script>
+    </body>
+</html>
